@@ -32,7 +32,6 @@ The bomba module for enable VoWifi and VoLTE, also some features
 ## 🔧 CÁCH KÍCH HOẠT
 
  + Viettel : VOLTE gửi 191 
- + VinaPhone : HDCALL gửi 888 
-               WICALL gửi 888
+ + VinaPhone : HDCALL gửi 888 | WICALL gửi 888
   > LƯU Ý: VINAPHONE YÊU CẦU PHẢI CÓ GÓI 4G THẬT (KO PHẢI M0 HAY GRPS) MỚI ĐƯỢC KÍCH TRÊN VOLTE/VOWIFI 
 + Mobifone : DK VOLTE gửi 9199 
