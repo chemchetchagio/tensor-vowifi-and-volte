@@ -1,2 +1,37 @@
 # tensor-vowifi-and-volte
-The mixed module for enable VoWifi and VoLTE, also some features
+The bomba module for enable VoWifi and VoLTE, also some features
+
+ > WARNING : IN ANDROID 17 BETA 3, VOWIFI IS CAUSING BUG WHEN CALL CARRIER SUPPORT EG: [18001090](tel:18001090), [18001091](tel:18001091), [191](tel:191),... ALSO CRASHING IMS AND RIL WHEN SIGNAL BECOME WEAK, THIS IS ANDROID PROBLEM AND IDK WHAT I CAN DO ABOUT IT
+
+# 💡 ORGINIAL IDEA
++ This module just insert this [prop](https://github.com/DerpFest-Devices/device_google_gs101_bluejay/commit/d95e56e7e90f18f28213afa8d6aabd402aff6c82) (thanks derpfest) into build.prop from system
++ Also some config from Sun_Dream (pls help me find ts user🙏🙏)
+
+# 📥 HOW TO INSTALL
+ 
+ + Download the module from releases
+ + Install it in you root manager
+ > IN KERNELSU >= 3.X.X YOU NEED TO INSTALL METAMODULE TO MAKE CHANGES   
+ + Reboot it
+ + Open daller app and type '*#*#4636*#*#'
+ + Open Phone information
+ + Click three dot ⁝ in right top conner -> IMS service status
+ + And if you see like this, you did it!!
+
+| VoLTE | VoWifi |
+| ----| -----|
+|<img width="590" height="306" alt="image" src="https://github.com/user-attachments/assets/97d4cb5f-6be2-4170-a913-540410f52854" /> | <img width="590" height="294" alt="image" src="https://github.com/user-attachments/assets/3c1f864e-bb67-4012-b57f-5b3a1c07ba34" /> |
+
+ > KEEP IN MIND: IF YOU INSTALLED MODULE BUT NOTHING CHANGED, MAKE SURE YOUR CARRIER SUPPORT VOLTE/VOWIFI
+
+# 🇻🇳 FOR VIETNAMESE ONLY
++ Hiện tại CHỈ có Vinaphone hỗ trợ chính thức VoWifi
++ Mobifone đang tạm thời dừng triển khai VoWifi và còn VoLTE
++ Viettel CHỈ hỗ trợ VoLTE (cập nhật 4/2026)
+
+## 🔧 CÁCH KÍCH HOẠT
+
+ + Viettel : VOLTE gửi 191 | [GỬI NHANH](sms:191?body=VOLTE)
+ + VinaPhone : HDCALL gửi 888 | [GỬI NHANH](sms:888?body=HDCALL)
+               WICALL gửi 888 | [GỬI NHANH](sms:888?body=WICALL)
++ Mobifone : DK VOLTE gửi 9199 | [GỬI NHANH](sms:9199?body=DK%20VOLTE)
