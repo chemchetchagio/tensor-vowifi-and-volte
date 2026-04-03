@@ -128,8 +128,8 @@ print_modname() {
   ui_print "**********************************"
   sleep 1
   ui_print "Make sure you carrier supported VoLTE/VoWiFi"
-  sleep 10
-  ui_print "Also make sure after install module and reboot it, you enable it in setting"
+  sleep 5
+  ui_print "Also make sure after installed module and reboot it, you must enable it in setting"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
