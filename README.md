@@ -3,10 +3,11 @@ The bomba module for enable VoWifi and VoLTE, also some features
 
  > ~~WARNING : IN ANDROID 17 BETA 3, VOWIFI IS CAUSING BUG WHEN CALL CARRIER SUPPORT EG: [18001090](tel:18001090), [18001091](tel:18001091), [191](tel:191),... ALSO CRASHING IMS AND RIL WHEN SIGNAL BECOME WEAK, THIS IS ANDROID PROBLEM AND IDK WHAT I CAN DO ABOUT IT~~
 
->  THEY FIXED LOL
+>>  THEY FIXED LOL
 
 # 💡 ORGINIAL IDEA
-+ This module just insert this [prop](https://github.com/DerpFest-Devices/device_google_gs101_bluejay/commit/d95e56e7e90f18f28213afa8d6aabd402aff6c82) (thanks derpfest) into build.prop from system
++ This module just insert this [props](https://github.com/DerpFest-Devices/device_google_gs101_bluejay/commit/d95e56e7e90f18f28213afa8d6aabd402aff6c82) (thanks derpfest) into build.prop from system
+  + Also from this [props](https://github.com/EstebanForge/Pixel-VoLTE-VoWIFI-5G-Enabler/blob/main/common/system.prop)  
 + Also some config from Sun_Dream (pls help me find ts user🙏🙏)
 
 # 📥 HOW TO INSTALL
