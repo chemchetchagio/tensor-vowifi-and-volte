@@ -39,3 +39,10 @@ ro.nubia.nr.support=1
 ro.telephony.default_cdma_sub=0
 ro.vendor.radio.5g=3
 #derpfest lol
+persist.nubia.5g.power.config=1            
+persist.sys.strictmode.disable=true        
+persist.vendor.dpm.feature=1              
+persist.radio.volte.dan_support=true
+persist.radio.VT_ENABLE=1
+persist.sys.cust.lte_config=true
+#estebanfore
