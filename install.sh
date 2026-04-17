@@ -128,7 +128,7 @@ print_modname() {
   ui_print "**********************************"
   sleep 1
   ui_print "Make sure you carrier supported VoLTE/VoWiFi"
-  sleep 5
+  sleep 3
   ui_print "Also make sure after installed module and reboot it, you must enable it in setting"
 }
 
