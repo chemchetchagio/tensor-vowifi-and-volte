@@ -1,6 +1,6 @@
 id=TensorVoLTEVoWifi
-name=Tensor VoLTE, VoWIFI 
-version=v1.1.1
-versionCode=111
+name=Tensor VoLTE, VoWIFI [CANARY BRANCH] 
+version=v1.2.0-canary
+versionCode=120
 author=tinhdaysauconmeanhchinhohaitayhaicumombucuemtrongconmeroianhnhinlenbautroigiua1nganvisaoanhchithayminhemtrongbongdemdangmoccheovoinyc
 description=Just a bomba module enable VoLTE and VoWifi
