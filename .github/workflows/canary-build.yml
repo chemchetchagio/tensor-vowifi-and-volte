@@ -24,9 +24,11 @@ jobs:
           chmod +x sh.sh
           bash sh.sh
 
-      - name: Get commit hash
+      - name: Get commit info
         id: commit
-        run: echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+        run: |
+          echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "msg=$(git log -1 --pretty=%B)" >> $GITHUB_OUTPUT
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -34,12 +36,7 @@ jobs:
           name: Tensor-VoLTE-VoWifi-Canary-${{ steps.commit.outputs.sha }}
           path: Tensor-VoLTE-VoWifi-Canary-*.zip
 
-      - name: Get commit info
-        id: commit
-        run: |
-          echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-          echo "msg=$(git log -1 --pretty=%B)" >> $GITHUB_OUTPUT
-
+          
       - name: Create Pre-Release
         uses: softprops/action-gh-release@v2
         with:
