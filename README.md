@@ -25,7 +25,7 @@ The bomba module for enable VoWifi and VoLTE, also some features
 | ----| -----|
 |<img width="590" height="306" alt="image" src="https://github.com/user-attachments/assets/97d4cb5f-6be2-4170-a913-540410f52854" /> | <img width="590" height="294" alt="image" src="https://github.com/user-attachments/assets/3c1f864e-bb67-4012-b57f-5b3a1c07ba34" /> |
 
- > KEEP IN MIND: IF YOU INSTALLED MODULE BUT NOTHING CHANGED, MAKE SURE YOUR CARRIER SUPPORT VOLTE/VOWIFI
+ > KEEP IN MIND: IF YOU INSTALLED MODULE BUT NOTHING CHANGED, MAKE SURE YOUR CARRIER SUPPORTED VOLTE/VOWIFI
 
 # 🇻🇳 FOR VIETNAMESE ONLY
 + Hiện tại CHỈ có Vinaphone hỗ trợ chính thức VoWifi
