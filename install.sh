@@ -140,6 +140,9 @@ on_install() {
 
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  # for action ahhhhhh
+  unzip -o "$ZIPFILE" 'action.sh' -d $MODPATH >&2
+  chmod +x $MODPATH/action.sh
 }
 
 # Only some special files require specific permissions
