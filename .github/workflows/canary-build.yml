@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - canary
+    workflow_dispatch: 
 
 jobs:
   build:
@@ -21,8 +22,12 @@ jobs:
           chmod +x sh.sh
           bash sh.sh
 
+      - name: Get commit hash
+        id: commit
+        run: echo "sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Tensor-Canary-Module
+          name: Tensor-VoLTE-VoWifi-Canary-${{ steps.commit.outputs.sha }}
           path: Tensor-VoLTE-VoWifi-Canary-*.zip
