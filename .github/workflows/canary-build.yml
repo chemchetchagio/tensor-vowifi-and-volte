@@ -1,0 +1,28 @@
+name: Build Tensor-VoLTE-VoWifi Canary Module
+
+on:
+  push:
+    branches:
+      - canary
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install zip
+        run: sudo apt-get install -y zip
+
+      - name: Build module
+        run: |
+          chmod +x sh.sh
+          bash sh.sh
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tensor-Canary-Module
+          path: Tensor-VoLTE-VoWifi-Canary-*.zip
