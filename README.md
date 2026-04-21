@@ -5,12 +5,12 @@ The bomba module for enable VoWifi and VoLTE, also some features
 
 >>  THEY FIXED LOL
 
-**VERY WARNING: YOU ARE IN CANARY BRANCH, THIS BRANCH VERY UNSTABLE AND NOT RECOMENDED FOR EVERY ONE, I HIGHTLY RECOMMEND YOU GUYS CHANGE TO MAIN BRANCH**!!!!!
+⚠⚠⚠ **VERY WARNING: YOU ARE IN CANARY BRANCH, THIS BRANCH VERY UNSTABLE AND NOT RECOMENDED FOR EVERY ONE, I HIGHTLY RECOMMEND YOU GUYS CHANGE TO MAIN BRANCH**!!!!!
 
 # 💡 ORGINIAL IDEA
 + This module just insert this [props](https://github.com/DerpFest-Devices/device_google_gs101_bluejay/commit/d95e56e7e90f18f28213afa8d6aabd402aff6c82) (thanks derpfest) into build.prop from system
   + Also from this [props](https://github.com/EstebanForge/Pixel-VoLTE-VoWIFI-5G-Enabler/blob/main/common/system.prop)  
-+ Also some config from Sun_Dream (pls help me find ts user🙏🙏)
++ Also some configs from Sun_Dream (pls help me find ts user🙏🙏)
 
 # 📥 HOW TO INSTALL
  
