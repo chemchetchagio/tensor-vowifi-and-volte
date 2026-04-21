@@ -45,8 +45,8 @@ jobs:
           prerelease: true
           files: Tensor-VoLTE-VoWifi-Canary-*.zip
           body: |
-            ⚠️ **THIS IS CANARY VERSION, USE IT CAREFULL!**
+            ⚠️ **THIS IS CANARY VERSION, USE IT CAREFULL! AND DONT BLAME ME IF YOU COOKED**
 
             ---
             ### Commit
-            ${{ steps.commit.outputs.msg }}
+            ${{ steps.commit.outputs.sha }} - ${{ steps.commit.outputs.msg }}
