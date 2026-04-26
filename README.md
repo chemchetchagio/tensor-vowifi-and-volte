@@ -1,4 +1,4 @@
-# ⚠⚠ I MIGRATE THIS PROJECT TO GITEA, PLEASE CONSIDER GO TO [HERE](https://git.adminforge.de/dapchetchagio/tensor-vowifi-and-volte)
+# ⚠⚠ I MIGRATED THIS PROJECT TO GITEA, PLEASE CONSIDER GO TO [HERE](https://git.adminforge.de/dapchetchagio/tensor-vowifi-and-volte)
 # tensor-vowifi-and-volte
 The bomba module for enable VoWifi and VoLTE, also some features
 
